@@ -1,5 +1,5 @@
 context:
-  version: "0.2.0"
+  version: "0.3.0"
 
 package:
   name: sqlfluff-lsp
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/VasanthakumarV/sqlfluff-lsp/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 84d0837e42044f3d059f5f3726a19b2e734570c8b436f30884074b3dc5522eed
+  sha256: 9a30f37d172c5c41629efb0a82340a8fbca2b9963f6c57e5b44ac7b9d758bbb6
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
