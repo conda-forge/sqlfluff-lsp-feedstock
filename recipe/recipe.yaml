@@ -31,7 +31,7 @@ requirements:
     - cargo-bundle-licenses
     - cargo-auditable
   run:
-    - sqlfluff >=3,<4
+    - sqlfluff >=3,<5
 
 tests:
   - script:
