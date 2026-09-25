@@ -1,5 +1,5 @@
 context:
-  version: "0.5.0"
+  version: "0.6.0"
 
 package:
   name: sqlfluff-lsp
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/VasanthakumarV/sqlfluff-lsp/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 7f0b8000b969856f4872010fa79f1a34a4b4944bd417845b8559642777225e82
+  sha256: b34df07b177c27dfea9fc6a7e36188ec81187610654c6c49107dc263a02be3cc
 
 build:
   number: 0
